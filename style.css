@@ -62,3 +62,9 @@ footer {
     padding: 30px 5%;
     text-align: center;
 }
+
+.secondary {
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 10px;
+}
