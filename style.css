@@ -139,7 +139,7 @@ p {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-/* ------------------- Services ------------------- */
+/* ------------------- Services------------------- */
 .service-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -160,14 +160,29 @@ p {
 }
 
 /* ------------------- Why-us ------------------- */
+/* ------------------- Why-us ------------------- */
 .why-us {
     background: var(--primary);
     color: white;
-    padding: 4vw 6vw; 
-    border-radius: 2vw;
-    display: inline-block; 
-    width: auto;
-    margin: 20px auto;
+    width: fit-content;
+    max-width: 90vw;
+    margin: 5vw auto;  
+    padding: 3vw 6vw;
+    border-radius: 4vw;
+    text-align: left;
+}
+
+.why-us h2 {
+    color: white;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    font-size: 6vw;
+    margin-bottom: 3vw;
+    text-align: center;
+}
+
+.why-us ul {
+    padding: 0;
+    margin: 0;
 }
 
 .why-us li {
