@@ -160,37 +160,40 @@ p {
 }
 
 /* ------------------- Why-us ------------------- */
-/* ------------------- Why-us ------------------- */
-.why-us {
+section.why-us {
+    width: auto; 
+    display: table;
+    margin: 4vw auto;
+    padding: 4vw 8vw;
     background: var(--primary);
     color: white;
-    width: fit-content;
-    max-width: 90vw;
-    margin: 5vw auto;  
-    padding: 3vw 6vw;
     border-radius: 4vw;
-    text-align: left;
 }
 
+
 .why-us h2 {
+    font-size: 5.5vw; 
     color: white;
-    border-bottom: 1px solid rgba(255,255,255,0.3);
-    font-size: 6vw;
-    margin-bottom: 3vw;
-    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    margin-bottom: 2vw;
+    padding-bottom: 2vw;
+    width: 100%;
 }
 
 .why-us ul {
     padding: 0;
     margin: 0;
+    display: inline-block;
+    text-align: left;
 }
 
 .why-us li {
     font-size: 4vw;
-    margin: 2vw 0;
+    margin: 1.5vw 0;
     list-style: none;
     white-space: nowrap;
 }
+
 
 
 /* ------------------- Footer ------------------- */
