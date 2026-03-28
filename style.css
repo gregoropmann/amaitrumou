@@ -211,3 +211,20 @@ footer a:hover {
     background: #fafafa;
     border-top: 1px solid #eee;
 }
+
+@media (max-width: 768px) {
+    .gallery {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .gallery figure {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .gallery figcaption {
+        padding: 15px;
+        font-size: 1.1rem;
+    }
+}
