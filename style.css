@@ -180,33 +180,34 @@ footer a:hover {
 
 /* ------------------- Gallery ------------------- */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); 
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
     padding: 20px;
 }
 
 .gallery figure {
     margin: 0;
-    width: 100%;
+    width: 90%;
+    max-width: 1200px;
     background: #fff;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
     overflow: hidden;
 }
 
 .gallery img {
     width: 100%;
-    height: 600px;
-    object-fit: cover;
+    height: auto;
     display: block;
+    object-fit: contain;
 }
 
 .gallery figcaption {
-    padding: 20px;
-    font-size: 1.25rem;
-    font-weight: bold;
+    padding: 25px;
+    font-size: 1.5rem;
     text-align: center;
-    color: #333;
+    background: #fafafa;
     border-top: 1px solid #eee;
 }
