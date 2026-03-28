@@ -185,12 +185,11 @@ footer a:hover {
     align-items: center;
     gap: 20px;
     padding: 10px;
-    width: 100%;
 }
 
 .gallery figure {
-    margin: 0 auto;
-    width: 95vw;
+    margin: 0;
+    width: 100%;
     max-width: 1000px;
     background: #fff;
     border-radius: 8px;
@@ -202,12 +201,11 @@ footer a:hover {
     width: 100%;
     height: auto;
     display: block;
-    object-fit: contain;
 }
 
 .gallery figcaption {
     padding: 15px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: center;
     background: #fdfdfd;
 }
@@ -215,15 +213,15 @@ footer a:hover {
 @media (min-width: 768px) {
     .gallery {
         gap: 40px;
-        padding: 20px;
+        padding: 40px;
     }
 
     .gallery figure {
-        width: 80vw;
+        width: 80%;
     }
 
     .gallery figcaption {
         padding: 25px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
