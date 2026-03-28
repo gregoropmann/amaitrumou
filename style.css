@@ -216,3 +216,15 @@ footer a:hover {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     }
 }
+
+/* ------------------- Logo ------------------- */
+.logo-img {
+    height: auto;
+    max-height: 50px;
+    display: block;
+}
+
+.logo {
+    display: flex;
+    align-items: left;
+}
