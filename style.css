@@ -33,6 +33,7 @@ h2 { font-size: clamp(20px, 7vw, 36px); }
 p  { font-size: clamp(16px, 4vw, 18px); }
 
 /* ------------------- Navigation ------------------- */
+/* ------------------- Navigatsioon ------------------- */
 nav {
     display: flex;
     justify-content: space-between;
@@ -54,27 +55,20 @@ nav {
     gap: 1.5rem;
 }
 
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    transition: color 0.3s;
-}
-
+/* ------------------- Mobile Burger------------------- */
 .menu-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
     gap: 6px;
-    padding: 10px;
+    z-index: 1100;
 }
 
 .bar {
     width: 28px;
     height: 3px;
     background-color: white;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -85,15 +79,15 @@ nav {
     .nav-links {
         position: fixed;
         right: -100%;
-        top: 70px;
+        top: 0;
         flex-direction: column;
         background: var(--primary);
-        width: 100%;
-        height: calc(100vh - 70px);
-        text-align: center;
-        transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
-        padding: 2rem 0;
-        gap: 2rem;
+        width: 70%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        transition: 0.4s ease-in-out;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.2);
     }
 
     .nav-links.active {
